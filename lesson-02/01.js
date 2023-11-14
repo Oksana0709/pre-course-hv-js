@@ -4,9 +4,10 @@
 // }
 // doArrow('Передай 5')
 
-let  doArrow = (value) => value;
+
+
+let  doArrow = (value) => {
+    return value
+}
 console.log(doArrow('Передай 5'))
-
-
-
 
