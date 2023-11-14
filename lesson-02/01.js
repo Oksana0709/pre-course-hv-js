@@ -4,7 +4,9 @@
 // }
 // doArrow('Передай 5')
 
-const doArrow = (value) =>  value
-console.log(doArrow('Передай 5'))
+let  doArrow = (value) => value;
+console.log(doArrow('hhh'))
+
+
 
 
