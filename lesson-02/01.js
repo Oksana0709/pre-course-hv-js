@@ -5,7 +5,8 @@
 // }
 // doArrow('Передай 5')
 
-const doArrow = (value) => {
-    return console.log(value = 'Передай 5')
+
+let doArrow = (value) => { 
+    console.log (value);
 }
-doArrow()
+doArrow('Передай 5');
