@@ -9,4 +9,4 @@ copyObj.name = "Ivan";
 
 
 console.log(passport)
-console.log(copyObj)
+console.log(copyObj.name)
