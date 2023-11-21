@@ -8,5 +8,5 @@ let copyObj = { ...passport };
 copyObj.name = "Ivan";
 
 
-console.log(passport)
+console.log(passport.name)
 console.log(copyObj.name)
