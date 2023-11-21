@@ -4,9 +4,9 @@ let passport = {
   surename: "Petrov",
 };
 
-let passport2 = { ...passport };
-passport2.name = "Ivan";
+let copyObj = { ...passport };
+copyObj.name = "Ivan";
 
 
 console.log(passport);
-console.log(passport2);
+console.log(copyObj);
