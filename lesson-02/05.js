@@ -1,7 +1,7 @@
 
 let passport = {
   name: "Petr",
-  surename: "Petrov",
+  surname: "Petrov",
 };
 
 let copyObj = { ...passport };
