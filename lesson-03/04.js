@@ -61,6 +61,5 @@ const users = [
   },
 ];
 
-let usersId = users.map((i) => i.id);
-let usersId2 = usersId.filter((i) => i % 2 === 0);
-console.log(usersId2);
+let usersId2 = users.filter(i => i.id % 2 === 0)
+console.log(usersId2)
